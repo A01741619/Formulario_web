@@ -1,21 +1,28 @@
-import FormComponent from "../components/FormComponent"
+import { useState } from "react";
+import FormComponent from "../components/FormComponent";
+import MovieList from "../components/MovieList";
 
-export default function Dashboard(){
+export default function Dashboard() {
+  const [movies, setMovies] = useState([]);
 
-    return(
-        <>
-            <div>
-                <h1>Agrega una nueva pelicula favorita!</h1>
-                <p>Agrega los datos aqui abajo!</p>
-            </div>
+  const addMovie = (movie) => {
+    setMovies([...movies, movie]);
+  };
 
-            <div>
-                <FormComponent />
-            </div>
+  return (
+    <>
+      <div>
+        <h1>Agrega una nueva pelicula favorita!</h1>
+        <p>Agrega los datos aqui abajo!</p>
+      </div>
 
-            <div>
-                
-            </div>
-        </>
-    )
+      <div>
+        <FormComponent onAddMovie={addMovie} />
+      </div>
+
+      <div>
+        <MovieList movies={movies} />
+      </div>
+    </>
+  );
 }
