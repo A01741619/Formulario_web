@@ -11,11 +11,11 @@ public class FormService {
     public Map<String, String> processForm(Map<String, Object> formData) {
         Map<String, String> response = new HashMap<>();
 
-        String persona = (String) formData.get("persona");
+        String persona = (String) formData.get("nombre");
         Object edad = formData.get("edad");
-        String personajeFav = (String) formData.get("personajeFav");
+        String personajeFav = (String) formData.get("personaje");
         String correo = (String) formData.get("correo");
-        String peliculaFav = (String) formData.get("peliculaFav");
+        String peliculaFav = (String) formData.get("pelicula");
 
         String resumen = "Persona: " + persona + "\n" +
                          "Edad: " + edad + "\n" +
