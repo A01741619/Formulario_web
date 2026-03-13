@@ -1,6 +1,10 @@
 # Formulario_web
 
+# Instrucciones para ejecutar el backend
 
+# Instrucciones para ejecutar el frontend
+
+# Descripción breve del proyecto
 
 
 
