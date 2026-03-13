@@ -6,6 +6,7 @@
 
 # Capturas
 Formulario funcionando
+
 <img width="638" height="324" alt="caputuraFrotend" src="https://github.com/user-attachments/assets/c5754b0d-803c-4f85-9dda-88cd936b2db0" />
 
 <img width="638" height="324" alt="caputuraFrotend1" src="https://github.com/user-attachments/assets/faa9e493-46a2-4afe-8041-abc4cf0803cd" />
