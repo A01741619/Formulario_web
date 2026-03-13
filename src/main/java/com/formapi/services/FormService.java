@@ -12,9 +12,9 @@ public class FormService {
         Map<String, String> response = new HashMap<>();
 
         String persona = (String) formData.get("nombre");
+        String correo = (String) formData.get("correo");
         Object edad = formData.get("edad");
         String personajeFav = (String) formData.get("personaje");
-        String correo = (String) formData.get("correo");
         String peliculaFav = (String) formData.get("pelicula");
 
         String resumen = "Persona: " + persona + "\n" +
